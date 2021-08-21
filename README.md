@@ -7,6 +7,9 @@ I've worked on a mix of incredible projects spanning some of the biggest brands 
 ### Pentair Water Supplies 
 Magento Cloud and Adobe Experience Manager, integrated with Magento Order Manager
 
+### Crane Stationary
+Magento Cloud and integrating with their pre-existing printing and embroidery software
+
 ### LeCreuset
 Brand with global reach, hosted in four data centers around the world and serving over 150 locales 
 
