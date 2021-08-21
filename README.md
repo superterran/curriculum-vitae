@@ -17,12 +17,15 @@ Brand with global reach, hosted in four data centers around the world and servin
 Magento Cloud project with great performance
 
 ### Curtain Call Costumes
-Hosted on Rackspace, 
+Hosted on Rackspace, bulk-ordering for classes and real-time inventory on the frontend with a custom AS-400 
 
 ### Olympus Digital Cameras 
 Oversaw the initial implementation, recently re-wrote ERP and payment integrations
 
 ## Managed Services and DevOps 
+
+### Demme Learning
+
 
 ### Vermont Teddy Bear
 Server maintance and triage in a production support capacity
