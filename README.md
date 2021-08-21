@@ -25,7 +25,7 @@ Oversaw the initial implementation, recently re-wrote ERP and payment integratio
 ## Managed Services and DevOps 
 
 ### Demme Learning
-
+Unified Login with seperate services and courseware through a self-hosted SAML iDP. Wrote the login bridge for Magento to serve as an SP
 
 ### Vermont Teddy Bear
 Server maintance and triage in a production support capacity
