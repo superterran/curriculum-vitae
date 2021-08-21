@@ -1,6 +1,6 @@
 # Doug Hatcher
 
-It's been a good decade. I've worked on a mix of incredible projects spanning some of the biggest brands in America. I typically serve in a client-facing technical leadership role. In this, I usually architect and oversee development inititives, In most cases, I take ownership of the hosting infrastructure and typically implement it myself or co-own it with a hosting provider like Webscale or Rackspace. 
+It's been a good decade. I've worked on a mix of incredible projects spanning some of the biggest brands in America. I typically serve in a client-facing technical leadership role. In this, I usually architect and oversee development inititives. In most cases, I take ownership of the hosting infrastructure and will either implement it myself or co-own it with a hosting provider like Webscale or Rackspace. 
 
 ## New Implementations
 
