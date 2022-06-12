@@ -70,6 +70,9 @@ Joined Frontend team for one quater to help pick up slack, implemented Magento 1
 
 ## Sales and Consultations
 
+* NBC Universal
+* OneTrust
+* Paypal/Braintree
 * Smiles Direct
 * Apple 
 * Tuner Broadcasting
