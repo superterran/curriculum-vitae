@@ -2,6 +2,9 @@
 
 I've worked on a mix of incredible projects spanning some of the biggest brands in America. I typically serve in a client-facing technical leadership role. In this, I usually architect and oversee development inititives. In most cases, I take ownership of the hosting infrastructure and will either implement it myself or co-own it with a hosting provider like Magento Cloud, Webscale, or Rackspace. 
 
+# Apple
+Working with Apple on a large-scale global project using a mix of commerce platforms for the Apple WW Digital Channel. This project is in the process of swallowing my org whole, but it's incredible work and they really keep us on our toes. To save time, take notes directly in Keynote!
+
 ## Pentair Water Supplies 
 Magento Cloud and with Adobe Experience Manager, integrated with Magento Order Manager. One of the first hybrid Magento/AEM builds leveraging GraphQL via the CIF Connector brought to market. Led new implementation of Magento Commerce and Cloud aspects of projects. 
 
