@@ -47,6 +47,9 @@ jobs:
           npm run build
           npm run build:md
           npm run build:html || true
+          npm run build:pdf || true
+          npm run build:docx || true
+          node scripts/add-download-links.js || true
           # Copy resume.html to index.html for GitHub Pages
           cp dist/resume.html dist/index.html
 

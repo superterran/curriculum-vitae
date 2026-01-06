@@ -1,6 +1,9 @@
 # Private configuration (not exported to resume.json)
 _theme: jsonresume-theme-elegant
-_domain: resume.doughatcher.com 
+_domain: resume.doughatcher.com
+_downloads:
+  pdf: true    # Set to false to disable PDF download link
+  docx: false  # Set to false to disable DOCX download link 
 
 # JSONResume Schema
 basics:
