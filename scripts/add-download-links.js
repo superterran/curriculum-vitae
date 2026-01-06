@@ -29,13 +29,17 @@ function addDownloadLinks() {
 
   let html = fs.readFileSync(htmlPath, 'utf8');
   
-  // Build download links HTML for sidebar
+  // Remove any existing download sections from previous runs
+  html = html.replace(/<div class="download-links"[\s\S]*?<\/style>\s*\n/g, '');
+  html = html.replace(/<hr>\s*<div class="download-section">[\s\S]*?<\/style>\s*\n/g, '');
+  
+  // Build download links HTML for sidebar with absolute paths
   const links = [];
   if (enablePdf) {
-    links.push('<a href="resume.pdf" download class="download-link"><i class="icon fs-lg icon-download"></i> PDF</a>');
+    links.push('<a href="/resume.pdf" download class="download-link"><i class="icon fs-lg icon-download"></i> PDF</a>');
   }
   if (enableDocx) {
-    links.push('<a href="resume.docx" download class="download-link"><i class="icon fs-lg icon-download"></i> DOCX</a>');
+    links.push('<a href="/resume.docx" download class="download-link"><i class="icon fs-lg icon-download"></i> DOCX</a>');
   }
   
   const downloadSection = `
