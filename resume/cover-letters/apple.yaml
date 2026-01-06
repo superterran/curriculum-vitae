@@ -1,0 +1,44 @@
+# Cover letter data for Apple position
+position: Senior Infrastructure Engineer
+company: Apple
+date: "2026-01-05"
+department: iOS Platform Team
+hiring_manager: Hiring Manager
+
+# Custom intro paragraph
+intro: |
+  I am writing to express my strong interest in the Senior Infrastructure Engineer position
+  with the iOS Platform Team. Having previously worked on Apple's WW Digital Channel project,
+  I have firsthand experience with Apple's commitment to excellence and world-class engineering standards.
+
+# Key selling points - will be formatted as bullets or paragraphs
+highlights:
+  - title: Proven Apple Experience
+    description: |
+      Successfully delivered large-scale global commerce platform infrastructure for Apple's
+      WW Digital Channel, working directly with Apple teams and meeting stringent performance
+      and security requirements.
+      
+  - title: Kubernetes & Auto-scaling Expertise
+    description: |
+      Architected one of the industry's best Magento 2 auto-scaling deployments on Kubernetes
+      for Booksio, implementing Terraform Cloud with comprehensive Helm charts. This system
+      handles dynamic load scaling across global markets.
+      
+  - title: Global Scale Infrastructure
+    description: |
+      Built and managed infrastructure serving 150+ locales across four worldwide data centers
+      for Le Creuset, demonstrating ability to handle complex multi-region architectures with
+      unified codebase deployment.
+
+# Closing paragraph
+closing: |
+  I am excited about the opportunity to bring my infrastructure expertise and Apple experience
+  to the iOS Platform Team. I am confident that my background in building scalable, reliable
+  systems for global brands aligns well with Apple's infrastructure needs.
+  
+  I would welcome the opportunity to discuss how my experience can contribute to Apple's
+  continued success. Thank you for your consideration.
+
+# Contact preferences
+availability: "I am available for interviews at your convenience and can start immediately."

@@ -1,0 +1,31 @@
+{{#if name}}{{name}}{{/if}}
+{{#if email}}{{email}}{{/if}}
+{{#if phone}}{{phone}}{{/if}}
+{{#if location}}{{#if location.city}}{{location.city}}{{#if location.region}}, {{location.region}}{{/if}}{{/if}}{{/if}}
+
+{{date}}
+
+{{#if hiring_manager}}{{hiring_manager}}{{/if}}
+{{#if department}}{{department}}{{/if}}
+{{company}}
+
+Dear {{#if hiring_manager}}{{hiring_manager}}{{else}}Hiring Manager{{/if}},
+
+{{intro}}
+
+{{#each highlights}}
+**{{title}}**
+
+{{description}}
+
+{{/each}}
+
+{{closing}}
+
+{{#if availability}}
+{{availability}}
+{{/if}}
+
+Sincerely,
+
+{{name}}

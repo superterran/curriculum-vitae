@@ -1,0 +1,139 @@
+# {{basics.name}}
+
+{{#if basics.label}}**{{basics.label}}**{{/if}}
+
+{{#if basics.email}}📧 {{basics.email}}{{/if}} {{#if basics.phone}}| 📱 {{basics.phone}}{{/if}} {{#if basics.url}}| 🌐 {{basics.url}}{{/if}}
+
+{{#if basics.location}}{{basics.location.city}}{{#if basics.location.region}}, {{basics.location.region}}{{/if}}{{#if basics.location.countryCode}} {{basics.location.countryCode}}{{/if}}{{/if}}
+
+{{#if basics.profiles}}
+{{#each basics.profiles}}
+- **{{network}}**: {{url}}
+{{/each}}
+{{/if}}
+
+---
+
+## Summary
+
+{{basics.summary}}
+
+---
+
+## Professional Experience
+
+{{#each work}}
+### {{position}} — {{name}}
+
+**{{formatDate startDate}} - {{formatDate endDate}}**{{#if url}} | {{url}}{{/if}}
+
+{{summary}}
+
+{{#if highlights}}
+{{#each highlights}}
+- {{this}}
+{{/each}}
+{{/if}}
+
+{{/each}}
+
+---
+
+## Projects
+
+{{#each projects}}
+### {{name}}
+
+{{#if startDate}}**{{formatDate startDate}}{{#if endDate}} - {{formatDate endDate}}{{/if}}**{{/if}}{{#if roles}} | {{join roles ", "}}{{/if}}
+
+{{description}}
+
+{{#if highlights}}
+**Key Achievements:**
+{{#each highlights}}
+- {{this}}
+{{/each}}
+{{/if}}
+
+{{#if keywords}}**Technologies:** {{join keywords ", "}}{{/if}}
+
+{{/each}}
+
+---
+
+## Skills
+
+{{#each skills}}
+### {{name}}{{#if level}} ({{level}}){{/if}}
+
+{{join keywords ", "}}
+
+{{/each}}
+
+---
+
+{{#if education}}
+{{#if education.length}}
+## Education
+
+{{#each education}}
+### {{studyType}} in {{area}}
+
+**{{institution}}** | {{formatDate startDate}} - {{formatDate endDate}}
+
+{{#if score}}GPA: {{score}}{{/if}}
+
+{{#if courses}}
+**Relevant Coursework:** {{join courses ", "}}
+{{/if}}
+
+{{/each}}
+{{/if}}
+{{/if}}
+
+---
+
+{{#if certificates}}
+{{#if certificates.length}}
+## Certifications
+
+{{#each certificates}}
+- **{{name}}** — {{issuer}} ({{formatDate date}}){{#if url}} | [Verify]({{url}}){{/if}}
+{{/each}}
+
+---
+{{/if}}
+{{/if}}
+
+{{#if languages}}
+{{#if languages.length}}
+## Languages
+
+{{#each languages}}
+- **{{language}}**: {{fluency}}
+{{/each}}
+
+---
+{{/if}}
+{{/if}}
+
+{{#if volunteer}}
+{{#if volunteer.length}}
+## Additional Experience
+
+{{#each volunteer}}
+### {{position}} — {{organization}}
+
+{{#if startDate}}**{{formatDate startDate}} - {{formatDate endDate}}**{{/if}}
+
+{{summary}}
+
+{{#if highlights}}
+{{#each highlights}}
+- {{this}}
+{{/each}}
+{{/if}}
+
+{{/each}}
+{{/if}}
+{{/if}}

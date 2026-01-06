@@ -1,0 +1,109 @@
+name: Create Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install yq
+        run: |
+          sudo wget -qO /usr/local/bin/yq https://github.com/mikefarah/yq/releases/latest/download/yq_linux_amd64
+          sudo chmod +x /usr/local/bin/yq
+
+      - name: Install Pandoc
+        run: |
+          PANDOC_VERSION="3.1.11"
+          wget -q https://github.com/jgm/pandoc/releases/download/${PANDOC_VERSION}/pandoc-${PANDOC_VERSION}-linux-amd64.tar.gz
+          sudo tar xzf pandoc-${PANDOC_VERSION}-linux-amd64.tar.gz --strip-components 1 -C /usr/local/
+          rm pandoc-${PANDOC_VERSION}-linux-amd64.tar.gz
+
+      - name: Install LaTeX (for PDF generation)
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y texlive-xetex texlive-fonts-recommended texlive-plain-generic
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Extract variant name from tag
+        id: tag_info
+        run: |
+          TAG_NAME=${GITHUB_REF#refs/tags/}
+          echo "tag_name=$TAG_NAME" >> $GITHUB_OUTPUT
+          
+          # Check if this is a variant tag (e.g., v2026.1.0-apple)
+          if [[ $TAG_NAME == *"-"* ]]; then
+            VARIANT=${TAG_NAME##*-}
+            echo "variant=$VARIANT" >> $GITHUB_OUTPUT
+            echo "is_variant=true" >> $GITHUB_OUTPUT
+          else
+            echo "is_variant=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Build main resume
+        if: steps.tag_info.outputs.is_variant == 'false'
+        run: |
+          npm run build
+          npm run build:formats
+
+      - name: Build variant resume
+        if: steps.tag_info.outputs.is_variant == 'true'
+        run: |
+          npm run build
+          npm run build:variant ${{ steps.tag_info.outputs.variant }}
+          
+          # Try to build cover letter if it exists
+          if [ -f "resume/cover-letters/${{ steps.tag_info.outputs.variant }}.yaml" ]; then
+            npm run build:cover ${{ steps.tag_info.outputs.variant }}
+          fi
+
+      - name: Prepare release files (main)
+        if: steps.tag_info.outputs.is_variant == 'false'
+        run: |
+          mkdir -p release-files
+          cp dist/resume.json release-files/
+          cp dist/resume.md release-files/
+          cp dist/resume.html release-files/ || true
+          cp dist/resume.docx release-files/ || true
+          cp dist/resume.pdf release-files/ || true
+
+      - name: Prepare release files (variant)
+        if: steps.tag_info.outputs.is_variant == 'true'
+        run: |
+          mkdir -p release-files
+          VARIANT=${{ steps.tag_info.outputs.variant }}
+          cp dist/resume-${VARIANT}.json release-files/ || true
+          cp dist/resume-${VARIANT}.md release-files/ || true
+          cp dist/resume-${VARIANT}.docx release-files/ || true
+          cp dist/resume-${VARIANT}.pdf release-files/ || true
+          
+          # Include cover letter if it exists
+          cp dist/cover-${VARIANT}.md release-files/ || true
+          cp dist/cover-${VARIANT}.docx release-files/ || true
+          cp dist/cover-${VARIANT}.pdf release-files/ || true
+
+      - name: Create Release
+        uses: softprops/action-gh-release@v1
+        with:
+          files: release-files/*
+          draft: false
+          prerelease: false
+          generate_release_notes: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

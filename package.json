@@ -1,0 +1,36 @@
+{
+  "name": "cv",
+  "version": "1.0.0",
+  "description": "Multi-format resume builder with variants support",
+  "private": true,
+  "scripts": {
+    "clean": "rm -rf dist && mkdir -p dist",
+    "build": "npm run clean && node scripts/build.js",
+    "build:variant": "node scripts/build-variant.js",
+    "build:cover": "node scripts/build-cover.js",
+    "build:all": "npm run build && npm run build:formats",
+    "build:formats": "npm run build:md && npm run build:html && npm run build:pdf && npm run build:docx",
+    "build:md": "node scripts/generate-markdown.js",
+    "build:html": "resumed render resume.json --theme ${npm_package_config_theme} --output dist/resume.html",
+    "build:pdf": "pandoc dist/resume.md -o dist/resume.pdf --pdf-engine=xelatex --template=templates/resume-template.tex 2>/dev/null || echo 'PDF generation requires LaTeX (xelatex). Skipping...'",
+    "build:docx": "pandoc dist/resume.md -o dist/resume.docx --reference-doc=templates/reference.docx",
+    "validate": "resumed validate resume.json",
+    "dev": "nodemon --watch resume/data.yaml --exec 'npm run build && npm run serve'",
+    "serve": "npx serve dist -p 3000",
+    "release": "node scripts/release.js"
+  },
+  "config": {
+    "theme": "jsonresume-theme-elegant"
+  },
+  "dependencies": {
+    "handlebars": "^4.7.8",
+    "js-yaml": "^4.1.0",
+    "serve": "^14.2.5"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1",
+    "jsonresume-theme-elegant": "^1.16.1",
+    "nodemon": "^3.0.2",
+    "resumed": "^3.0.0"
+  }
+}

@@ -1,0 +1,40 @@
+# Example: Apple iOS position variant
+# This overlays on top of data.yaml to create a targeted resume
+
+# Merge strategy: This file will be merged with data.yaml
+# Use yq: yq eval-all 'select(fileIndex==0) * select(fileIndex==1)' resume/data.yaml resume/variants/apple-ios.yaml
+
+basics:
+  summary: |
+    Technical Architect with extensive experience in large-scale iOS and e-commerce platforms.
+    Previously delivered critical infrastructure for Apple WW Digital Channel. Expert in
+    Kubernetes, auto-scaling architectures, and global multi-region deployments supporting
+    millions of users.
+
+# Reorder/filter projects to emphasize Apple-relevant work
+projects:
+  - name: Apple WW Digital Channel
+  - name: Booksio
+  - name: Le Creuset
+  - name: Pentair Water Supplies
+  - name: Nintendo of America
+  - name: Lancaster Archery
+
+# Emphasize relevant skills
+skills:
+  - name: Cloud & Infrastructure
+    level: Expert
+    keywords:
+      - Kubernetes
+      - Terraform
+      - Docker
+      - Auto-scaling
+      - Multi-region Architecture
+      
+  - name: E-commerce & Platforms
+    level: Expert
+    keywords:
+      - Large-scale Commerce Platforms
+      - Adobe Commerce
+      - Global Deployments
+      - High Performance
