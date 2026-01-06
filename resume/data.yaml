@@ -1,13 +1,13 @@
 # Private configuration (not exported to resume.json)
 _theme: jsonresume-theme-elegant
-_domain: resume.doughatcher.com
+_domain: resume.doughatcher.com 
 
 # JSONResume Schema
 basics:
   name: Doug Hatcher
-  label: Technical Architect & Infrastructure Lead
+  label: Solution Consultant and Technical Architect
   email: doug@hatcher.ltd  # Update with your actual email
-  phone: ""  # Optional
+  phone: "(843) 224-8834"  # Optional
   url: ""  # Your website/portfolio
   summary: |
     Experienced technical architect specializing in large-scale e-commerce implementations,
@@ -16,21 +16,21 @@ basics:
     and Adobe Commerce/Magento platforms with deep expertise in multi-region deployments
     and high-performance auto-scaling architectures.
   location:
-    city: ""
+    city: "Charleston"
     countryCode: US
-    region: ""
+    region: "SC"
   profiles:
     - network: LinkedIn
-      username: ""
-      url: ""
+      username: "doughatcher"
+      url: "https://www.linkedin.com/in/doughatcher/"
     - network: GitHub
-      username: ""
-      url: ""
+      username: "superterran"
+      url: "github.com/superterran"
 
 work:
-  - name: Your Company  # Update with your actual employer
-    position: Technical Architect
-    startDate: "2010-01-01"  # Update with actual dates
+  - name: Blue Acorn iCi # Update with your actual employer
+    position: Solution Consultant and Technical Architect
+    startDate: "2011-11-01"  # Update with actual dates
     # endDate: ""  # Omit if current position
     summary: |
       Lead technical architecture and infrastructure for high-profile e-commerce implementations
