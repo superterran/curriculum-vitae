@@ -47,6 +47,8 @@ jobs:
           npm run build
           npm run build:md
           npm run build:html || true
+          # Copy resume.html to index.html for GitHub Pages
+          cp dist/resume.html dist/index.html
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
