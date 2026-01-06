@@ -15,8 +15,18 @@ wget -q https://github.com/jgm/pandoc/releases/download/${PANDOC_VERSION}/pandoc
 sudo tar xzf pandoc-${PANDOC_VERSION}-linux-amd64.tar.gz --strip-components 1 -C /usr/local/
 rm pandoc-${PANDOC_VERSION}-linux-amd64.tar.gz
 
+# Install LaTeX for PDF generation
+echo "📦 Installing LaTeX (this may take a few minutes)..."
+sudo apt-get update -qq
+sudo apt-get install -y -qq texlive-xetex texlive-fonts-recommended texlive-fonts-extra
+
 # Install Node.js dependencies
 echo "📦 Installing npm packages..."
 npm install
 
-echo "✅ Setup complete! You can now build your resume with 'npm run build'"
+# Build resume and generate all formats
+echo "📄 Building resume and generating DOCX/PDF..."
+npm run build
+npm run build:docs
+
+echo "✅ Setup complete! Resume formats available in dist/"
