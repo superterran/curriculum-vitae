@@ -8,16 +8,17 @@ _downloads:
 # JSONResume Schema
 basics:
   name: Doug Hatcher
-  label: Solution Consultant and Technical Architect
-  email: doug@hatcher.ltd  # Update with your actual email
-  phone: "(843) 224-8834"  # Optional
-  url: ""  # Your website/portfolio
+  label: Solution Consultant - Adobe Commerce & Cloud Architecture
+  email: doug@hatcher.ltd
+  phone: "(843) 224-8834"
+  url: ""
   summary: |
-    Experienced technical architect specializing in large-scale e-commerce implementations,
-    cloud infrastructure, and DevOps practices. Proven track record delivering solutions for
-    global brands including Apple, Walmart, and Nintendo. Expert in Kubernetes, Terraform,
-    and Adobe Commerce/Magento platforms with deep expertise in multi-region deployments
-    and high-performance auto-scaling architectures.
+    Solution consultant and technical architect specializing in Adobe Commerce implementations,
+    cloud infrastructure, and pre-sales technical design. Over a decade of experience delivering
+    enterprise e-commerce solutions for Fortune 500 clients including Apple, Adobe, Walmart, and
+    Microsoft. Expert in Adobe Commerce App Builder, Kubernetes, and multi-region cloud architectures.
+    Currently leading technical design and project oversight for enterprise clients transitioning to
+    modern commerce platforms.
   location:
     city: "Charleston"
     countryCode: US
@@ -31,12 +32,24 @@ basics:
       url: "github.com/superterran"
 
 work:
-  - name: Blue Acorn iCi # Update with your actual employer
-    position: Solution Consultant and Technical Architect
-    startDate: "2011-11-01"  # Update with actual dates
-    # endDate: ""  # Omit if current position
+  - name: Blue Acorn iCi
+    position: Solution Consultant
+    startDate: "2022-01-01"
     summary: |
-      Lead technical architecture and infrastructure for high-profile e-commerce implementations
+      Lead pre-sales technical design and solution architecture for enterprise Adobe Commerce
+      implementations. Provide technical oversight and project governance for Fortune 500 clients.
+    highlights:
+      - Led Adobe Commerce App Builder integration rollout for Adobe's key ISV partners (Stripe, Yotpo, Bazaarvoice, Adyen)
+      - Architected solutions for 40+ enterprise clients including Microsoft, Adobe, Apple, Subaru, and Meta
+      - Technical design authority for pre-sales engagements across retail, B2B, and marketplace sectors
+      - Open-source contributor to Adobe Commerce App Builder ecosystem with public GitHub repositories
+
+  - name: Blue Acorn iCi
+    position: Technical Architect
+    startDate: "2011-11-01"
+    endDate: "2021-12-31"
+    summary: |
+      Led technical architecture and infrastructure for high-profile e-commerce implementations
       across Fortune 500 clients and global brands.
     highlights:
       - Architected and delivered solutions for 25+ enterprise clients including Apple, Walmart, FedEx, and Nintendo
@@ -44,8 +57,71 @@ work:
       - Created CI/CD tooling and deployment automation used across organization
       - Led hybrid cloud implementations integrating Adobe Experience Manager with Commerce platforms
 
-# Projects showcase (2010s - early 2020s Technical Architect work)
+# Projects showcase
 projects:
+  # 2025 - Adobe Commerce App Builder (Public Work)
+  - name: Adobe Commerce App Builder - ISV Partner Integrations
+    description: |
+      Led Adobe's rollout of Commerce App Builder integrations for key ISV partners.
+      Open-source implementations enabling out-of-app Adobe Commerce integrations.
+    highlights:
+      - "Stripe Payment Gateway integration (GitHub: adobe/commerce-integration-starter-kit)"
+      - Yotpo Reviews & Loyalty platform integration
+      - Bazaarvoice Ratings & Reviews integration
+      - Adyen Payment Platform integration
+    keywords:
+      - Adobe Commerce
+      - App Builder
+      - ISV Integrations
+      - Open Source
+    startDate: "2025-01-01"
+    url: "https://github.com/adobe/commerce-integration-starter-kit"
+    roles:
+      - Solution Consultant
+      - Technical Lead
+    type: open-source
+
+  # Recent Pre-Sales Cases (2024-2025) - Selected highlights (add _ to name field to hide)
+  - _name: Microsoft Enterprise Commerce
+    description: Pre-sales technical design for Microsoft's enterprise commerce initiative
+    highlights:
+      - Multi-tenant architecture design
+      - Adobe Commerce Cloud platform evaluation
+    keywords:
+      - Enterprise Architecture
+      - Adobe Commerce
+    startDate: "2024-01-01"
+    roles:
+      - Solution Consultant
+    type: consultation
+
+  - _name: Meta Commerce Platform
+    description: Technical architecture consultation for Meta's commerce platform modernization
+    highlights:
+      - Platform migration strategy
+      - Scalability and performance requirements
+    keywords:
+      - Platform Migration
+      - Adobe Commerce
+    startDate: "2024-01-01"
+    roles:
+      - Solution Consultant
+    type: consultation
+
+  - _name: Subaru of America B2C Platform
+    description: Enterprise e-commerce solution design for Subaru's direct-to-consumer initiative
+    highlights:
+      - B2C commerce platform design
+      - Dealer integration strategy
+    keywords:
+      - B2C Commerce
+      - Adobe Commerce
+    startDate: "2024-01-01"
+    roles:
+      - Solution Consultant
+    type: consultation
+
+  # Notable Technical Architecture Projects (2020-2022)
   - name: Apple WW Digital Channel
     description: |
       Large-scale global project using a mix of commerce platforms for Apple's worldwide digital channel.
@@ -58,8 +134,7 @@ projects:
       - E-commerce
       - Global Scale
       - Platform Integration
-    startDate: "2020-01-01"  # Approximate
-    # endDate: ""  # Omit for ongoing projects
+    startDate: "2020-01-01"
     roles:
       - Technical Architect
     type: client
@@ -366,25 +441,38 @@ projects:
       - Frontend Developer
     type: client
 
-# Additional sales and consultation work
+# Pre-sales and technical consultation engagements
 volunteer:
-  - organization: Sales & Technical Consultations
+  - organization: Pre-Sales & Solution Consulting
     position: Technical Consultant
+    startDate: "2022-01-01"
     summary: |
-      Provided sales engineering and technical consultation for enterprise prospects
-      including NBC Universal, OneTrust, PayPal/Braintree, SmileDirectClub, Tuner Broadcasting,
-      Atrium, and Nestle.
+      Lead technical consultation and solution design for enterprise prospects across retail,
+      B2B, marketplace, and digital commerce sectors. Clients include Fortune 500 companies
+      and high-growth digital brands.
     highlights:
-      - NBC Universal
-      - OneTrust
-      - PayPal/Braintree
-      - SmileDirectClub
-      - Apple
-      - Turner Broadcasting
-      - Atrium
-      - Nestle
+      # 2024-2025 Selected Cases
+      - Microsoft, Adobe, Meta, Subaru of America
+      - Verisk Analytics, Lovesac, American Eagle Outfitters
+      - Starbucks at Home, Royal Botanic Gardens
+      - Cartier, Warby Parker, Moda Operandi
+      - DISH Network, Digital River, AT&T, Rite Aid
+      # Public App Builder Partners
+      - Stripe, Yotpo, Bazaarvoice, Adyen
+      # Earlier Consultations (2022-2024)
+      - NBC Universal, OneTrust, PayPal/Braintree, Turner Broadcasting
 
 skills:
+  - name: Adobe Commerce & App Builder
+    level: Expert
+    keywords:
+      - Adobe Commerce
+      - App Builder
+      - Adobe I/O Runtime
+      - Commerce Integrations
+      - Adobe Experience Manager
+      - Magento Cloud
+
   - name: Cloud & Infrastructure
     level: Expert
     keywords:
@@ -396,6 +484,16 @@ skills:
       - Azure
       - Helm
       - Infrastructure as Code
+      
+  - name: Solution Design & Pre-Sales
+    level: Expert
+    keywords:
+      - Enterprise Architecture
+      - Solution Consulting
+      - Technical Design
+      - Pre-Sales Engineering
+      - RFP Response
+      - Technical Discovery
       
   - name: E-commerce Platforms
     level: Expert

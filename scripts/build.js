@@ -8,7 +8,25 @@ const path = require('path');
  */
 function filterPrivate(obj) {
   if (Array.isArray(obj)) {
-    return obj.map(filterPrivate);
+    // First filter, then map - check for _name before removing private fields
+    return obj
+      .filter(item => {
+        // If item has _name but no name, exclude it entirely
+        if (item && typeof item === 'object' && !Array.isArray(item)) {
+          if (item._name && !item.name) {
+            return false;
+          }
+        }
+        return true;
+      })
+      .map(filterPrivate)
+      .filter(item => {
+        // After filtering private fields, ensure we have content
+        if (item && typeof item === 'object' && !Array.isArray(item)) {
+          return Object.keys(item).length > 0;
+        }
+        return true;
+      });
   }
   if (obj && typeof obj === 'object') {
     return Object.keys(obj).reduce((acc, key) => {
