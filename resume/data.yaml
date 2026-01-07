@@ -10,7 +10,7 @@ _downloads:
 # JSONResume Schema
 basics:
   name: Doug Hatcher
-  label: Solution Consultant - Adobe Commerce & Cloud Architecture
+  label: Sr. Solution Consultant & Enterprise Architect
   email: doug@hatcher.ltd
   phone: "(843) 224-8834"
   url: ""
@@ -36,7 +36,7 @@ basics:
 
 work:
   - name: Blue Acorn iCi
-    position: Solution Consultant
+    position: Solution Consultant & Enterprise Architect
     startDate: "2022-01-01"
     summary: |
       Lead pre-sales technical design and solution architecture for enterprise Adobe Commerce
@@ -53,7 +53,7 @@ work:
       - Open-source contributor to Adobe Commerce App Builder ecosystem with public GitHub repositories
 
   - name: Blue Acorn iCi
-    position: Technical Architect
+    position: Technical Architect - Adobe Commerce
     startDate: "2011-11-01"
     endDate: "2021-12-31"
     summary: |
@@ -71,30 +71,143 @@ work:
 
 # Projects showcase
 projects:
+
+  - name: Nalli Silks and Sarees
+    description: |
+      Worked directly with CEO to stabilize troubled Adobe Commerce implementation and orchestrate
+      strategic platform migration to Shopify. Enabled brand to shift focus from technical debt
+      management to customer experience innovation.
+    highlights:
+      - Partnered with CEO on technical stabilization strategy
+      - Led platform migration from Adobe Commerce to Shopify
+      - Eliminated technical debt blocking customer experience improvements
+      - Enabled modern storefront architecture for future growth
+    keywords:
+      - Adobe Commerce
+      - Shopify
+      - Platform Migration
+      - Technical Stabilization
+      - Digital Transformation
+    startDate: "2025-01-01"
+    roles:
+      - Solution Consultant
+      - Migration Architect
+    type: client
+
   # 2025 - Adobe Commerce App Builder (Public Work)
   - name: Adobe Commerce App Builder - ISV Partner Integrations
     description: |
       Led Adobe's rollout of Commerce App Builder integrations for key ISV partners.
       Open-source implementations enabling out-of-app Adobe Commerce integrations.
     highlights:
-      - "Stripe Payment Gateway integration (GitHub: adobe/commerce-integration-starter-kit)"
-      - Yotpo Reviews & Loyalty platform integration
-      - Bazaarvoice Ratings & Reviews integration
-      - Adyen Payment Platform integration
+      - Stripe Payments
+      - Yotpo Reviews
+      - Bazaarvoice Reviews
+      - Adyen Payments
     keywords:
       - Adobe Commerce
       - App Builder
       - ISV Integrations
       - Open Source
     startDate: "2025-01-01"
-    url: "https://github.com/adobe/commerce-integration-starter-kit"
+    url: "https://github.com/BlueAcornInc/aio-commerce"
     roles:
       - Solution Consultant
       - Technical Lead
     type: open-source
 
+  - name: Lovesac
+    description: |
+      Introduced Lovesac to Adobe Experience Manager Edge Delivery Services and led groundbreaking
+      pilot of Universal Editor. Worked directly with Adobe architecture team to establish Lovesac
+      as first customer to market with Project Crosswalk (later Universal Editor), making them a
+      marquee customer for Adobe's innovative in-context editing platform.
+    highlights:
+      - First customer to pilot and deploy Project Crosswalk (Universal Editor)
+      - Introduced and championed AEM Edge Delivery Services adoption
+      - Collaborated with Adobe architecture team on red carpet pilot initiative
+      - Established Lovesac as marquee Adobe customer for Universal Editor
+      - Drove adoption of innovative in-context editing technology
+    keywords:
+      - Adobe Experience Manager
+      - Edge Delivery Services
+      - Universal Editor
+      - Project Crosswalk
+      - Innovation
+      - Adobe Partnership
+    startDate: "2023-01-01"
+    roles:
+      - Solution Consultant
+      - Innovation Lead
+    type: client
+
+  - name: Kai USA (Adobe Commerce as a Cloud Service Pilot)
+    description: |
+      Platform modernization to Adobe Commerce as a Cloud Service as one of the first customers
+      using this new exciting platform. Leading technical architecture and implementation.
+    highlights:
+      - Early adopter of Adobe Commerce as a Cloud Service
+      - Platform modernization and migration strategy
+      - Cloud-native architecture implementation
+    keywords:
+      - Adobe Commerce as a Cloud Service
+      - Platform Migration
+      - Cloud Modernization
+    startDate: "2025-01-01"
+    roles:
+      - Technical Architect
+      - Solution Consultant
+    type: client
+
+  - name: USP.org (United States Pharmacopeia)
+    description: |
+      Enterprise technology transformation for major pharmaceutical standards organization.
+      Led solution architecture for multi-platform modernization centered around Oracle Commerce,
+      Algolia search, and Drupal content management.
+    highlights:
+      - Enterprise solution architecture for pharmaceutical standards organization
+      - Oracle Commerce platform implementation
+      - Algolia enterprise search integration
+      - Drupal CMS architecture and integration
+    keywords:
+      - Oracle Commerce
+      - Algolia
+      - Drupal
+      - Enterprise Architecture
+      - Healthcare/Pharmaceutical
+    startDate: "2024-01-01"
+    roles:
+      - Solution Consultant
+      - Enterprise Architect
+    type: client
+
+  - name: Aramark Refreshments - Breakroom of the Future
+    description: |
+      Led transformational digital commerce initiative reimagining workplace refreshment experiences.
+      Architected and delivered innovative React-based headless commerce solution leveraging Adobe Commerce
+      as a composable backend, enabling Aramark to revolutionize their B2B breakroom ordering platform.
+    highlights:
+      - Visioned and architected the "Breakroom of the Future" digital transformation initiative
+      - Implemented headless React frontend with Adobe Commerce composable backend
+      - Delivered modern B2B commerce experience for workplace refreshment services
+      - Led technical team through complete platform modernization
+      - Created scalable composable architecture supporting future innovation
+    keywords:
+      - Adobe Commerce
+      - Headless Commerce
+      - React
+      - Composable Architecture
+      - Digital Transformation
+      - B2B Commerce
+    startDate: "2023-01-01"
+    roles:
+      - Solution Consultant
+      - Technical Architect
+    type: client
+
+
   # Recent Pre-Sales Cases (2024-2025) - Selected highlights (add _ to name field to hide)
-  - _name: Microsoft Enterprise Commerce
+  - _name: Xbox Design Labs
     description: Pre-sales technical design for Microsoft's enterprise commerce initiative
     highlights:
       - Multi-tenant architecture design
@@ -102,12 +215,13 @@ projects:
     keywords:
       - Enterprise Architecture
       - Adobe Commerce
-    startDate: "2024-01-01"
+    startDate: "2022-01-01"
+    endDate: "2024-12-31"
     roles:
       - Solution Consultant
     type: consultation
 
-  - _name: Meta Commerce Platform
+  - _name: Meta
     description: Technical architecture consultation for Meta's commerce platform modernization
     highlights:
       - Platform migration strategy
@@ -134,7 +248,7 @@ projects:
     type: consultation
 
   # Notable Technical Architecture Projects (2020-2022)
-  - name: Apple WW Digital Channel
+  - name: Apple
     description: |
       Large-scale global project using a mix of commerce platforms for Apple's worldwide digital channel.
       Multi-platform integration serving global markets.
@@ -147,15 +261,17 @@ projects:
       - Global Scale
       - Platform Integration
     startDate: "2020-01-01"
+    endDate: "2021-01-01"
     roles:
       - Technical Architect
     type: client
 
-  - name: Walmart - Magento Services Mono-repo
+  - _name: Magento Marketplace Module Support
     description: |
       Internal mono-repo tracking Docker images, deployment tools, and CI/CD workflows.
       Fully automated Magento Marketplace module testing including MFTF integration.
     highlights:
+      - Supported Walmart BOPIS & FedEx submissions to Magento Marketplace
       - Built comprehensive CI/CD automation framework
       - Implemented Docker-based deployment tooling
       - Automated Magento Marketplace compliance testing
@@ -165,28 +281,12 @@ projects:
       - Automation
       - MFTF
     startDate: "2019-01-01"
+    endDate: "2024-01-01"
     roles:
       - DevOps Lead
     type: client
 
-  - name: FedEx & Sears Pay Your Way
-    description: |
-      Extended magento-services deployment tool to support QA environment automation
-      with deployment concurrency and version testing capabilities.
-    highlights:
-      - Implemented concurrent cloud deployment system
-      - Version-agnostic testing framework
-      - Marketplace module validation automation
-    keywords:
-      - Cloud Deployment
-      - QA Automation
-      - Magento
-    startDate: "2018-01-01"
-    roles:
-      - Technical Lead
-    type: client
-
-  - name: Booksio
+  - _name: Booksio
     description: |
       Complete infrastructure overhaul implementing Terraform Cloud managed Kubernetes deployment
       with Helm charts. One of the best Magento 2 auto-scaling deployments in production.
@@ -201,12 +301,13 @@ projects:
       - Auto-scaling
       - Infrastructure as Code
     startDate: "2018-01-01"
+    endDate: "2019-01-01"
     url: ""
     roles:
       - Infrastructure Architect
     type: client
 
-  - name: Pentair Water Supplies
+  - _name: Pentair Water Supplies
     description: |
       Magento Cloud implementation integrated with Adobe Experience Manager and Magento Order Manager.
       One of the first hybrid Magento/AEM builds leveraging GraphQL via CIF Connector.
@@ -224,7 +325,7 @@ projects:
       - Technical Architect
     type: client
 
-  - name: Crane Stationery
+  - _name: Crane Stationery
     description: |
       Magento Cloud implementation with integration to legacy printing and embroidery software systems.
       Led new implementation and provided DevOps support.
@@ -241,7 +342,7 @@ projects:
       - Technical Lead
     type: client
 
-  - name: Le Creuset
+  - name: LeCreuset
     description: |
       Global brand serving 150+ locales across four worldwide data centers with unified codebase.
       Multi-region deployment supporting worldwide markets.
@@ -254,11 +355,12 @@ projects:
       - Multi-region
       - High Availability
     startDate: "2016-01-01"
+    endDate: "2022-01-01"
     roles:
       - Infrastructure Architect
     type: client
 
-  - name: Worx
+  - _name: Worx
     description: Magento Cloud project with optimized performance and reliability.
     highlights:
       - High-performance Magento Cloud implementation
@@ -270,7 +372,7 @@ projects:
       - Technical Lead
     type: client
 
-  - name: Curtain Call Costumes
+  - _name: Curtain Call Costumes
     description: |
       Rackspace-hosted platform with bulk ordering capabilities and real-time inventory
       integration with custom AS-400 system.
@@ -289,7 +391,7 @@ projects:
 
   - name: Olympus Digital Cameras
     description: |
-      Initial implementation with product customizer and integrated social media services.
+      Initial implementation with product customizer and integrated social media services. Also built a Digital River payment module to allow them to migrate away from a sunsetted payment provider. 
     highlights:
       - Product customization platform
       - Social media integration
@@ -297,11 +399,12 @@ projects:
       - Product Customization
       - Social Integration
     startDate: "2015-01-01"
+    endDate: "2018-01-01"
     roles:
       - Technical Lead
     type: client
 
-  - name: Demme Learning
+  - _name: Demme Learning
     description: |
       Unified login system integrating separate services and courseware through self-hosted SAML IdP.
       Built custom Magento SAML Service Provider bridge.
@@ -318,7 +421,7 @@ projects:
       - Security Architect
     type: client
 
-  - name: Vermont Teddy Bear
+  - _name: Vermont Teddy Bear
     description: Server maintenance and production triage support.
     keywords:
       - Production Support
@@ -327,7 +430,7 @@ projects:
       - Support Engineer
     type: client
 
-  - name: Harney Teas
+  - _name: Harney Teas
     description: Server maintenance and production triage support.
     keywords:
       - Production Support
@@ -347,13 +450,14 @@ projects:
       - Security Hardening
       - Team Leadership
     startDate: "2014-01-01"
+    endDate: "2017-01-01"
     roles:
       - Technical Lead
     type: client
 
   - name: Nintendo of America
     description: |
-      Implementation and maintenance of test environments for Nintendo's online store.
+      Implementation and maintenance of automated test environments for Nintendo's online eShop.
     highlights:
       - Test environment implementation and maintenance
       - High-security requirements
@@ -361,12 +465,13 @@ projects:
     keywords:
       - E-commerce
       - Test Environments
-    startDate: "2013-01-01"
+    startDate: "2022-01-01"
+    endDate: "2024-01-01"
     roles:
       - DevOps Engineer
     type: client
 
-  - name: Rufflebutts
+  - _name: Rufflebutts
     description: E-commerce implementation and support.
     keywords:
       - E-commerce
@@ -375,7 +480,7 @@ projects:
       - Technical Lead
     type: client
 
-  - name: Lancaster Archery
+  - _name: Lancaster Archery
     description: |
       Intensive codebase cleanup and migration from on-premise hosting to auto-scaling provider.
     highlights:
@@ -392,19 +497,22 @@ projects:
 
   - name: Warner Music
     description: |
-      Maintenance and support of 150+ artist brand sites representing major Spotify content.
+      Maintenance and support of 150+ artist brand sites representing major Spotify content through a AWS-based kubernetes deployment.
     highlights:
       - Multi-site management at scale
       - 150+ brand site support
     keywords:
       - Multi-site
       - Entertainment
-    startDate: "2012-01-01"
+      - Terraform
+      - Kubernetes
+    startDate: "2019-01-01"
+    endDate: "2021-01-01"
     roles:
       - Technical Lead
     type: client
 
-  - name: Speck Cases
+  - _name: Speck Cases
     description: Initial implementation and server-level maintenance and support.
     keywords:
       - E-commerce
@@ -414,7 +522,7 @@ projects:
       - Technical Lead
     type: client
 
-  - name: Carbon 38
+  - _name: Carbon 38
     description: |
       Took over large cloud infrastructure project and helped bootstrap retainer team for major upgrade.
     highlights:
@@ -429,7 +537,7 @@ projects:
       - Infrastructure Lead
     type: client
 
-  - name: First Aid Beauty
+  - _name: First Aid Beauty
     description: E-commerce implementation and support.
     keywords:
       - E-commerce
@@ -438,7 +546,7 @@ projects:
       - Technical Lead
     type: client
 
-  - name: Marine Depot
+  - _name: Marine Depot
     description: |
       Frontend development on Magento 1, including theme implementation, styling, and JavaScript.
     highlights:
@@ -457,8 +565,8 @@ projects:
 volunteer:
   - organization: Waccamaw Indian People
     position: Technology Officer
-    url: "https://waccamaw.org"
-    startDate: "2015-01-01"
+    url: "https://github.com/waccamaw"
+    startDate: "2001-01-01"
     summary: |
       Serve as technology officer for federally recognized tribe, architecting and maintaining
       digital infrastructure supporting 500+ tribal members. Built modern composable architecture
@@ -480,6 +588,28 @@ skills:
       - Commerce Integrations
       - Adobe Experience Manager
       - Magento Cloud
+      - Adobe Experience Manager (AEM)
+      - Edge Delivery Services
+      - Document-based Authoring
+      - da.live
+      - Universal Editor
+      - Admin Service
+      - Adobe Commerce Storefront
+      - Adobe Commerce Optimizer
+      - Commerce Integration Framework (CIF)
+
+  - name: Adobe Experience platform
+    level: Expert
+    keywords:
+      - Adobe Experience Platform (AEP)
+      - App Builder
+      - GenStudio
+      - Workfront Fusion
+      - LLM Optimizer
+      - Customer Journey Analytics (CJA)
+      - Customer Journey Orchestration (CJO)
+      - Real-Time Customer Data Platform (RT-CDP)
+
 
   - name: Cloud & Infrastructure
     level: Expert
@@ -491,8 +621,11 @@ skills:
       - Google Cloud
       - Azure
       - Helm
+      - Cloudflare
+      - Oracle Cloud Infrastructure
       - Infrastructure as Code
-      
+
+
   - name: Solution Design & Pre-Sales
     level: Expert
     keywords:
@@ -511,6 +644,9 @@ skills:
       - Magento Cloud
       - Salesforce Commerce Cloud
       - Adobe Experience Manager
+      - Shopify
+      - Oracle Commerce Cloud
+      - Commerce Tools
       
   - name: DevOps & CI/CD
     level: Expert
@@ -561,7 +697,37 @@ certificates: []
 
 awards: []
 
-publications: []
+publications:
+
+  - name: "The Funnel Podcast: How You Can Become Enterprise Ready"
+    publisher: "Blue Acorn iCi"
+    releaseDate: "2024-12-14"
+    url: "https://www.blueacornici.com/blog/the-funnel-podcast-how-you-can-become-enterprise-ready"
+    summary: "A discussion with Doug and Sarah on what it takes to become enterprise-ready in the world of e-commerce and digital transformation."
+
+  - name: "The Next Wave: Understanding Generative Commerce and the Future of Brands"
+    publisher: "Blue Acorn iCi"
+    releaseDate: "2024-10-03"
+    url: "https://www.blueacornici.com/blog/understanding-generative-commerce-and-the-future-of-brands"
+    summary: "Breaking down what Generative Commerce is and how it's set to transform the future of commerce and retail."
+
+  - name: "From Setup to Success: How to leverage payments to enhance the Adobe Commerce journey"
+    publisher: "BrightTALK Webinar"
+    releaseDate: "2024-08-03"
+    url: "https://www.brighttalk.com/webcast/20368/621519"
+    summary: "Blue Acorn iCi's Doug Hatcher teams up with Adobe's Nitu Walker to guide you through setting up and onboarding Payment Services on Adobe Commerce."
+
+  - name: "Adobe's 2024 B2B Commerce Trends & Data Report"
+    publisher: "Adobe"
+    releaseDate: "2024-07-23"
+    url: "https://business.adobe.com/resources/sdk/2024-b2b-commerce-trends-and-data-report.html"
+    summary: "Presented the technical perspective for Adobe's 2024 edition of their B2B trends report."
+
+  - name: "What Does 'Fully-Integrated' Mean in the DXP Era?"
+    publisher: "Future Commerce Podcast"
+    releaseDate: "2023-04-29"
+    url: "https://www.futurecommerce.com/podcasts/step-by-step-what-does-fully-integrated-mean-in-the-dxp-era"
+    summary: "Discussion about Digital Experience Platforms."
 
 languages:
   - language: English
