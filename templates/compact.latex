@@ -1,0 +1,80 @@
+\documentclass[10pt,letterpaper]{article}
+
+% Compact margins
+\usepackage[top=0.5in, bottom=0.5in, left=0.6in, right=0.6in]{geometry}
+
+% Better font
+\usepackage{fontspec}
+\setmainfont{Latin Modern Roman}
+\setsansfont{Latin Modern Sans}
+
+% Compact spacing
+\usepackage{parskip}
+\setlength{\parskip}{0.3em}
+\setlength{\parindent}{0pt}
+
+% Tighter line spacing
+\usepackage{setspace}
+\setstretch{1.0}
+
+% Compact lists
+\usepackage{enumitem}
+\setlist{nosep, leftmargin=1.5em, itemsep=0.1em, topsep=0.2em}
+
+% Compact sections
+\usepackage{titlesec}
+\titlespacing*{\section}{0pt}{0.8em}{0.4em}
+\titlespacing*{\subsection}{0pt}{0.6em}{0.3em}
+\titlespacing*{\subsubsection}{0pt}{0.4em}{0.2em}
+
+% Reduce space around headings
+\titleformat{\section}{\large\bfseries}{\thesection}{1em}{}
+\titleformat{\subsection}{\normalsize\bfseries}{\thesubsection}{1em}{}
+\titleformat{\subsubsection}{\normalsize\itshape}{\thesubsubsection}{1em}{}
+
+% Hyperlinks
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue,
+    pdfborder={0 0 0}
+}
+
+% Colors
+\usepackage{xcolor}
+
+% For better tables
+\usepackage{longtable,booktabs}
+\setlength{\LTpre}{0.5em}
+\setlength{\LTpost}{0.5em}
+
+% Graphics
+\usepackage{graphicx}
+
+% Make URLs smaller
+\renewcommand\UrlFont{\small\ttfamily}
+
+% Reduce spacing before/after verbatim
+\usepackage{etoolbox}
+\preto{\@verbatim}{\topsep=0pt \partopsep=0pt}
+
+$if(title)$
+\title{$title$}
+$endif$
+$if(author)$
+\author{$for(author)$$author$$sep$ \and $endfor$}
+$endif$
+$if(date)$
+\date{$date$}
+$endif$
+
+\begin{document}
+
+$if(title)$
+\maketitle
+$endif$
+
+$body$
+
+\end{document}
