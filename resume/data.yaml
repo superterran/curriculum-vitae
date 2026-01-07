@@ -2,8 +2,10 @@
 _theme: jsonresume-theme-elegant
 _domain: resume.doughatcher.com
 _downloads:
-  pdf: true    # Set to false to disable PDF download link
-  docx: false  # Set to false to disable DOCX download link 
+  pdf: true     # Set to false to disable PDF download link
+  docx: true    # Set to false to disable DOCX download link
+  json: true    # Set to false to disable JSON download link
+  md: true      # Set to false to disable Markdown download link 
 
 # JSONResume Schema
 basics:
@@ -38,11 +40,16 @@ work:
     startDate: "2022-01-01"
     summary: |
       Lead pre-sales technical design and solution architecture for enterprise Adobe Commerce
-      implementations. Provide technical oversight and project governance for Fortune 500 clients.
+      implementations. Conduct technical discovery, solution design, and architecture workshops
+      for Fortune 500 clients and high-growth digital brands across retail, B2B, marketplace,
+      and omnichannel commerce sectors.
     highlights:
       - Led Adobe Commerce App Builder integration rollout for Adobe's key ISV partners (Stripe, Yotpo, Bazaarvoice, Adyen)
-      - Architected solutions for 40+ enterprise clients including Microsoft, Adobe, Apple, Subaru, and Meta
-      - Technical design authority for pre-sales engagements across retail, B2B, and marketplace sectors
+      - Architected solutions for 40+ enterprise clients including Microsoft, Adobe, Meta, Subaru of America, and Apple
+      - Pre-sales technical consultant for Verisk Analytics, Lovesac, American Eagle Outfitters, and Starbucks at Home
+      - Solution design for luxury and premium brands including Cartier, Warby Parker, and Moda Operandi
+      - Enterprise architecture consultation for DISH Network, Digital River, AT&T, and Rite Aid
+      - Led technical discovery and RFP responses for NBC Universal, OneTrust, PayPal/Braintree, and Turner Broadcasting
       - Open-source contributor to Adobe Commerce App Builder ecosystem with public GitHub repositories
 
   - name: Blue Acorn iCi
@@ -51,12 +58,16 @@ work:
     endDate: "2021-12-31"
     summary: |
       Led technical architecture and infrastructure for high-profile e-commerce implementations
-      across Fortune 500 clients and global brands.
+      across Fortune 500 clients and global brands. Designed and delivered cloud infrastructure,
+      CI/CD automation, and scalable commerce platforms.
     highlights:
       - Architected and delivered solutions for 25+ enterprise clients including Apple, Walmart, FedEx, and Nintendo
-      - Built auto-scaling Kubernetes infrastructure serving global markets across 4 data centers with 150+ locales
+      - Built auto-scaling Kubernetes infrastructure serving global markets across 4 data centers with 150+ locales (Le Creuset)
       - Created CI/CD tooling and deployment automation used across organization
-      - Led hybrid cloud implementations integrating Adobe Experience Manager with Commerce platforms
+      - Led hybrid cloud implementations integrating Adobe Experience Manager with Commerce platforms (Pentair)
+      - Infrastructure architect for Books-a-Million with Terraform Cloud managed Kubernetes and Helm charts
+      - Technical lead for Walmart Magento Services mono-repo with automated MFTF testing
+      - Architected SAML-based SSO for Demme Learning integrating multiple courseware platforms
 
 # Projects showcase
 projects:
@@ -442,26 +453,22 @@ projects:
       - Frontend Developer
     type: client
 
-# Pre-sales and technical consultation engagements
+# Volunteer work and community service
 volunteer:
-  - organization: Pre-Sales & Solution Consulting
-    position: Technical Consultant
-    startDate: "2022-01-01"
+  - organization: Waccamaw Indian People
+    position: Technology Officer
+    url: "https://waccamaw.org"
+    startDate: "2015-01-01"
     summary: |
-      Lead technical consultation and solution design for enterprise prospects across retail,
-      B2B, marketplace, and digital commerce sectors. Clients include Fortune 500 companies
-      and high-growth digital brands.
+      Serve as technology officer for federally recognized tribe, architecting and maintaining
+      digital infrastructure supporting 500+ tribal members. Built modern composable architecture
+      leveraging cloud-native services and headless CMS platforms.
     highlights:
-      # 2024-2025 Selected Cases
-      - Microsoft, Adobe, Meta, Subaru of America
-      - Verisk Analytics, Lovesac, American Eagle Outfitters
-      - Starbucks at Home, Royal Botanic Gardens
-      - Cartier, Warby Parker, Moda Operandi
-      - DISH Network, Digital River, AT&T, Rite Aid
-      # Public App Builder Partners
-      - Stripe, Yotpo, Bazaarvoice, Adyen
-      # Earlier Consultations (2022-2024)
-      - NBC Universal, OneTrust, PayPal/Braintree, Turner Broadcasting
+      - Architected and maintain waccamaw.org using modern service-based composable infrastructure
+      - Implemented headless CMS and API-driven architecture for tribal communications
+      - Built member portal and resource management systems
+      - Manage cloud infrastructure and digital services for tribal operations
+      - Provide technical leadership and strategic technology planning for tribal initiatives
 
 skills:
   - name: Adobe Commerce & App Builder

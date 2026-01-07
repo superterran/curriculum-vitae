@@ -21,8 +21,10 @@ function addDownloadLinks() {
   
   const enablePdf = resumeData._downloads?.pdf !== false;
   const enableDocx = resumeData._downloads?.docx !== false;
+  const enableJson = resumeData._downloads?.json !== false;
+  const enableMd = resumeData._downloads?.md !== false;
   
-  if (!enablePdf && !enableDocx) {
+  if (!enablePdf && !enableDocx && !enableJson && !enableMd) {
     console.log('ℹ️  Download links disabled in config');
     return;
   }
@@ -33,13 +35,22 @@ function addDownloadLinks() {
   html = html.replace(/<div class="download-links"[\s\S]*?<\/style>\s*\n/g, '');
   html = html.replace(/<hr>\s*<div class="download-section">[\s\S]*?<\/style>\s*\n/g, '');
   
-  // Build download links HTML for sidebar with absolute paths
-  const links = [];
+  // Build primary PDF button
+  let primaryButton = '';
   if (enablePdf) {
-    links.push('<a href="/resume.pdf" download class="download-link"><i class="icon fs-lg icon-download"></i> PDF</a>');
+    primaryButton = '<a href="/resume.pdf" download class="download-btn-primary"><i class="icon icon-download"></i> Download PDF</a>';
   }
+  
+  // Build secondary format links
+  const secondaryLinks = [];
   if (enableDocx) {
-    links.push('<a href="/resume.docx" download class="download-link"><i class="icon fs-lg icon-download"></i> DOCX</a>');
+    secondaryLinks.push('<a href="/resume.docx" download class="download-link-secondary" title="Download DOCX">DOCX</a>');
+  }
+  if (enableJson) {
+    secondaryLinks.push('<a href="/resume.json" download class="download-link-secondary" title="Download JSON">JSON</a>');
+  }
+  if (enableMd) {
+    secondaryLinks.push('<a href="/resume.md" download class="download-link-secondary" title="Download Markdown">MD</a>');
   }
   
   const downloadSection = `
@@ -47,31 +58,48 @@ function addDownloadLinks() {
     <div class="download-section">
       <h4 class="text-center" style="margin-bottom: 10px; color: #666; font-size: 14px;">Download Resume</h4>
       <div class="download-links text-center">
-        ${links.join('')}
+        ${primaryButton}
+        ${secondaryLinks.length > 0 ? `<div class="download-secondary">${secondaryLinks.join(' · ')}</div>` : ''}
       </div>
     </div>
     <style>
       .download-section {
         padding: 0 10px 10px;
       }
-      .download-link {
+      .download-btn-primary {
         display: block;
-        padding: 10px;
+        padding: 12px 16px;
         margin: 8px 0;
         background: #0366d6;
         color: white !important;
         text-decoration: none;
-        border-radius: 3px;
-        font-weight: 500;
+        border-radius: 4px;
+        font-weight: 600;
+        font-size: 14px;
         transition: background 0.2s;
         text-align: center;
       }
-      .download-link:hover {
+      .download-btn-primary:hover {
         background: #0256c4;
         color: white !important;
       }
-      .download-link i {
-        margin-right: 8px;
+      .download-btn-primary i {
+        margin-right: 6px;
+      }
+      .download-secondary {
+        margin-top: 8px;
+        font-size: 11px;
+        color: #666;
+      }
+      .download-link-secondary {
+        color: #0366d6;
+        text-decoration: none;
+        font-weight: 500;
+        transition: color 0.2s;
+      }
+      .download-link-secondary:hover {
+        color: #0256c4;
+        text-decoration: underline;
       }
       @media print {
         .download-section {
@@ -95,7 +123,12 @@ function addDownloadLinks() {
   }
   
   fs.writeFileSync(htmlPath, html);
-  console.log(`✅ Added download links (PDF: ${enablePdf}, DOCX: ${enableDocx})`);
+  const formats = [];
+  if (enablePdf) formats.push('PDF');
+  if (enableDocx) formats.push('DOCX');
+  if (enableJson) formats.push('JSON');
+  if (enableMd) formats.push('MD');
+  console.log(`✅ Added download links (${formats.join(', ')})`);
 }
 
 addDownloadLinks();
