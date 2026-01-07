@@ -39,6 +39,11 @@ jobs:
           sudo tar xzf pandoc-${PANDOC_VERSION}-linux-amd64.tar.gz --strip-components 1 -C /usr/local/
           rm pandoc-${PANDOC_VERSION}-linux-amd64.tar.gz
 
+      - name: Install LaTeX for PDF generation
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq texlive-xetex texlive-fonts-recommended texlive-fonts-extra
+
       - name: Install dependencies
         run: npm ci
 

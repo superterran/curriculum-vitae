@@ -12,6 +12,7 @@ basics:
   email: doug@hatcher.ltd
   phone: "(843) 224-8834"
   url: ""
+  picture: "/me.png"
   summary: |
     Solution consultant and technical architect specializing in Adobe Commerce implementations,
     cloud infrastructure, and pre-sales technical design. Over a decade of experience delivering

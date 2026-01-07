@@ -92,6 +92,17 @@ function build() {
     console.log('✅ Created public/CNAME');
   }
 
+  // Copy profile picture if it exists
+  const publicDir = path.join(__dirname, '..', 'public');
+  const profilePictures = ['me.png', 'me.jpg', 'me.jpeg'];
+  for (const pic of profilePictures) {
+    const picPath = path.join(publicDir, pic);
+    if (fs.existsSync(picPath)) {
+      fs.copyFileSync(picPath, path.join(distDir, pic));
+      console.log(`✅ Copied ${pic} to dist/`);
+    }
+  }
+
   console.log('\n✨ Build complete!\n');
   console.log('Next steps:');
   console.log('  npm run build:formats  - Generate all output formats');
