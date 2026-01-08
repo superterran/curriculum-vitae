@@ -684,17 +684,6 @@ awards: []
 
 publications:
 
-  - name: "The Funnel Podcast: How You Can Become Enterprise Ready"
-    publisher: "Blue Acorn iCi"
-    releaseDate: "2024"
-    url: "https://www.blueacornici.com/blog/the-funnel-podcast-how-you-can-become-enterprise-ready"
-    summary: "A discussion with Doug and Sarah on what it takes to become enterprise-ready in the world of e-commerce and digital transformation."
-
-  - name: "The Next Wave: Understanding Generative Commerce and the Future of Brands"
-    publisher: "Blue Acorn iCi"
-    releaseDate: "2024"
-    url: "https://www.blueacornici.com/blog/understanding-generative-commerce-and-the-future-of-brands"
-    summary: "Breaking down what Generative Commerce is and how it's set to transform the future of commerce and retail."
 
   - name: "From Setup to Success: How to leverage payments to enhance the Adobe Commerce journey"
     publisher: "BrightTALK Webinar"
@@ -714,6 +703,19 @@ publications:
     url: "https://www.futurecommerce.com/podcasts/step-by-step-what-does-fully-integrated-mean-in-the-dxp-era"
     summary: "Discussion about Digital Experience Platforms."
 
+  - name: "The Next Wave: Understanding Generative Commerce and the Future of Brands"
+    publisher: "Blue Acorn iCi"
+    releaseDate: "2025"
+    url: "https://www.blueacornici.com/blog/understanding-generative-commerce-and-the-future-of-brands"
+    summary: "Breaking down what Generative Commerce is and how it's set to transform the future of commerce and retail."
+
+  - name: "The Funnel Podcast: How You Can Become Enterprise Ready"
+    publisher: "Blue Acorn iCi"
+    releaseDate: "2024"
+    url: "https://www.blueacornici.com/blog/the-funnel-podcast-how-you-can-become-enterprise-ready"
+    summary: "A discussion with Doug and Sarah on what it takes to become enterprise-ready in the world of e-commerce and digital transformation."
+
+ 
 languages:
   - language: English
     fluency: Native speaker
