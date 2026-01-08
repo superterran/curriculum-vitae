@@ -86,32 +86,78 @@ work:
       - Terraform
       - e-commerce
 
-# Projects showcase
-projects:
+  - name: Adobe Digest
+    position: Managing Editor
+    url: "https://adobedigest.com"
+    startDate: "2025"
+    summary: |
+      Managing editor for Adobe-focused publication covering Adobe Commerce, Experience Manager,
+      and digital experience platforms. Side business providing thought leadership and technical content.
+    keywords:
+      - Content Strategy
+      - Adobe Commerce
+      - Adobe Experience Manager
+      - Technical Writing
+      - Thought Leadership
 
   - name: Nalli Silks and Sarees
-    description: |
-      Worked directly with CEO to stabilize troubled Adobe Commerce implementation and orchestrate
-      strategic platform migration to Shopify. Enabled brand to shift focus from technical debt
-      management to customer experience innovation.
+    position: Fractional CTO
+    startDate: "2023"
+    summary: |
+      Provide fractional CTO services delivering strategic technology leadership. Led platform stabilization
+      and migration from Adobe Commerce to Shopify, enabling focus on customer experience innovation.
     highlights:
-      - Partnered with CEO on technical stabilization strategy
+      - Strategic technology leadership and platform architecture as fractional CTO
       - Led platform migration from Adobe Commerce to Shopify
       - Eliminated technical debt blocking customer experience improvements
-      - Enabled modern storefront architecture for future growth
+      - Partner directly with CEO on technology strategy
     keywords:
+      - Fractional CTO
       - Adobe Commerce
       - Shopify
       - Platform Migration
-      - Technical Stabilization
-      - Digital Transformation
-    startDate: "2025"
-    roles:
-      - Solution Consultant
-      - Migration Architect
-    type: client
+      - Strategic Leadership
 
-  # 2025 - Adobe Commerce App Builder (Public Work)
+  - name: 131 Digital
+    position: Technical Lead
+    startDate: "2010"
+    summary: |
+      Led technical architecture and implementation at boutique digital agency in Pawleys Island, SC.
+      Built custom MVC framework (Fusion) powering multiple local business websites. Specialized in
+      Drupal and WordPress development for small to medium-sized businesses.
+    highlights:
+      - Architected and developed Fusion MVC framework used across multiple client sites
+      - Technical lead for Lowcountry Jewelers and Surf The Earth implementations
+      - Drupal and WordPress development and custom theming
+    keywords:
+      - PHP
+      - MVC Framework
+      - Drupal
+      - WordPress
+      - Custom Development
+      - e-commerce
+
+# Volunteer Work
+volunteer:
+  - organization: Waccamaw Indian People
+    position: Technology Officer
+    url: "https://waccamaw.org"
+    startDate: "2001"
+    summary: |
+      Serve as technology officer for federally recognized tribe, architecting and maintaining
+      digital infrastructure supporting 500+ tribal members. Built modern composable architecture
+      leveraging cloud-native services and headless CMS platforms.
+    highlights:
+      - Architected and maintain waccamaw.org using modern service-based composable infrastructure
+      - Implemented headless CMS and API-driven architecture for tribal communications
+      - Built member portal and resource management systems
+      - Manage cloud infrastructure and digital services for tribal operations
+      - Provide technical leadership and strategic technology planning for tribal initiatives
+      - Open-source code and infrastructure documentation available on GitHub
+
+# Projects showcase
+projects:
+
   - name: Adobe Commerce App Builder - ISV Partner Integrations
     description: |
       Led Adobe's rollout of Commerce App Builder integrations for key ISV partners.
@@ -132,6 +178,59 @@ projects:
       - Solution Consultant
       - Technical Lead
     type: open-source
+
+  - name: Kai USA (Adobe Commerce as a Cloud Service Pilot)
+    description: |
+      Platform modernization to Adobe Commerce as a Cloud Service as one of the first customers
+      using this new exciting platform. Leading technical architecture and implementation.
+    highlights:
+      - Early adopter of Adobe Commerce as a Cloud Service
+      - Platform modernization and migration strategy
+      - Cloud-native architecture implementation
+    keywords:
+      - Adobe Commerce as a Cloud Service
+      - Platform Migration
+      - Cloud Modernization
+    startDate: "2025"
+    roles:
+      - Technical Architect
+      - Solution Consultant
+    type: client
+
+  - _name: USP.org (United States Pharmacopeia)
+    description: |
+      Enterprise technology transformation for major pharmaceutical standards organization.
+      Led solution architecture for multi-platform modernization centered around Oracle Commerce,
+      Algolia search, and Drupal content management.
+    highlights:
+      - Enterprise solution architecture for pharmaceutical standards organization
+      - Oracle Commerce platform implementation
+      - Algolia enterprise search integration
+      - Drupal CMS architecture and integration
+    keywords:
+      - Oracle Commerce
+      - Algolia
+      - Drupal
+      - Enterprise Architecture
+      - Healthcare/Pharmaceutical
+    startDate: "2024"
+    roles:
+      - Solution Consultant
+      - Enterprise Architect
+    type: client
+
+  - _name: Subaru of America B2C Platform
+    description: Enterprise e-commerce solution design for Subaru's direct-to-consumer initiative
+    highlights:
+      - B2C commerce platform design
+      - Dealer integration strategy
+    keywords:
+      - B2C Commerce
+      - Adobe Commerce
+    startDate: "2024"
+    roles:
+      - Solution Consultant
+    type: consultation
 
   - name: Lovesac
     description: |
@@ -158,46 +257,6 @@ projects:
       - Innovation Lead
     type: client
 
-  - name: Kai USA (Adobe Commerce as a Cloud Service Pilot)
-    description: |
-      Platform modernization to Adobe Commerce as a Cloud Service as one of the first customers
-      using this new exciting platform. Leading technical architecture and implementation.
-    highlights:
-      - Early adopter of Adobe Commerce as a Cloud Service
-      - Platform modernization and migration strategy
-      - Cloud-native architecture implementation
-    keywords:
-      - Adobe Commerce as a Cloud Service
-      - Platform Migration
-      - Cloud Modernization
-    startDate: "2025"
-    roles:
-      - Technical Architect
-      - Solution Consultant
-    type: client
-
-  - name: USP.org (United States Pharmacopeia)
-    description: |
-      Enterprise technology transformation for major pharmaceutical standards organization.
-      Led solution architecture for multi-platform modernization centered around Oracle Commerce,
-      Algolia search, and Drupal content management.
-    highlights:
-      - Enterprise solution architecture for pharmaceutical standards organization
-      - Oracle Commerce platform implementation
-      - Algolia enterprise search integration
-      - Drupal CMS architecture and integration
-    keywords:
-      - Oracle Commerce
-      - Algolia
-      - Drupal
-      - Enterprise Architecture
-      - Healthcare/Pharmaceutical
-    startDate: "2024"
-    roles:
-      - Solution Consultant
-      - Enterprise Architect
-    type: client
-
   - name: Aramark Refreshments - Breakroom of the Future
     description: |
       Led transformational digital commerce initiative reimagining workplace refreshment experiences.
@@ -222,8 +281,6 @@ projects:
       - Technical Architect
     type: client
 
-
-  # Recent Pre-Sales Cases (2024-2025) - Selected highlights (add _ to name field to hide)
   - name: Xbox Design Labs
     description: Pre-sales technical design for Microsoft's enterprise commerce initiative
     highlights:
@@ -238,20 +295,22 @@ projects:
       - Solution Consultant
     type: consultation
 
-  - _name: Subaru of America B2C Platform
-    description: Enterprise e-commerce solution design for Subaru's direct-to-consumer initiative
+  - name: Nintendo of America
+    description: |
+      Implementation and maintenance of automated test environments for Nintendo's online eShop.
     highlights:
-      - B2C commerce platform design
-      - Dealer integration strategy
+      - Test environment implementation and maintenance
+      - High-security requirements
+      - Prestigious client work
     keywords:
-      - B2C Commerce
-      - Adobe Commerce
-    startDate: "2024"
+      - e-commerce
+      - Test Environments
+    startDate: "2022"
+    endDate: "2024"
     roles:
-      - Solution Consultant
-    type: consultation
+      - DevOps Engineer
+    type: client
 
-  # Notable Technical Architecture Projects (2020-2022)
   - name: Apple
     description: |
       Large-scale global project using a mix of commerce platforms for Apple's worldwide digital channel.
@@ -268,6 +327,23 @@ projects:
     endDate: "2021"
     roles:
       - Technical Architect
+    type: client
+
+  - _name: Warner Music
+    description: |
+      Maintenance and support of 150+ artist brand sites representing major Spotify content through a AWS-based kubernetes deployment.
+    highlights:
+      - Multi-site management at scale
+      - 150+ brand site support
+    keywords:
+      - Multi-site
+      - Entertainment
+      - Terraform
+      - Kubernetes
+    startDate: "2019"
+    endDate: "2021"
+    roles:
+      - Technical Lead
     type: client
 
   - _name: Magento Marketplace Module Support
@@ -342,6 +418,22 @@ projects:
       - System Integration
       - DevOps
     startDate: "2017"
+    roles:
+      - Technical Lead
+    type: client
+
+  - _name: Yeti Coolers
+    description: |
+      Server migration and security hardening project. Oversaw development work for large team.
+    highlights:
+      - Server migration and infrastructure hardening
+      - Team leadership and development oversight
+    keywords:
+      - Migration
+      - Security Hardening
+      - Team Leadership
+    startDate: "2014"
+    endDate: "2017"
     roles:
       - Technical Lead
     type: client
@@ -429,7 +521,7 @@ projects:
     description: Server maintenance and production triage support.
     keywords:
       - Production Support
-    startDate: "2014-01-01"
+    startDate: "2014"
     roles:
       - Support Engineer
     type: client
@@ -441,38 +533,6 @@ projects:
     startDate: "2014"
     roles:
       - Support Engineer
-    type: client
-
-  - name: Yeti Coolers
-    description: |
-      Server migration and security hardening project. Oversaw development work for large team.
-    highlights:
-      - Server migration and infrastructure hardening
-      - Team leadership and development oversight
-    keywords:
-      - Migration
-      - Security Hardening
-      - Team Leadership
-    startDate: "2014"
-    endDate: "2017"
-    roles:
-      - Technical Lead
-    type: client
-
-  - name: Nintendo of America
-    description: |
-      Implementation and maintenance of automated test environments for Nintendo's online eShop.
-    highlights:
-      - Test environment implementation and maintenance
-      - High-security requirements
-      - Prestigious client work
-    keywords:
-      - e-commerce
-      - Test Environments
-    startDate: "2022"
-    endDate: "2024"
-    roles:
-      - DevOps Engineer
     type: client
 
   - _name: Rufflebutts
@@ -497,23 +557,6 @@ projects:
     startDate: "2013"
     roles:
       - Technical Architect
-    type: client
-
-  - name: Warner Music
-    description: |
-      Maintenance and support of 150+ artist brand sites representing major Spotify content through a AWS-based kubernetes deployment.
-    highlights:
-      - Multi-site management at scale
-      - 150+ brand site support
-    keywords:
-      - Multi-site
-      - Entertainment
-      - Terraform
-      - Kubernetes
-    startDate: "2019"
-    endDate: "2021"
-    roles:
-      - Technical Lead
     type: client
 
   - _name: Speck Cases
@@ -565,74 +608,8 @@ projects:
       - Frontend Developer
     type: client
 
-# Volunteer work and community service
-volunteer:
-  - organization: Waccamaw Indian People
-    position: Technology Officer
-    url: "https://github.com/waccamaw"
-    startDate: "2001"
-    summary: |
-      Serve as technology officer for federally recognized tribe, architecting and maintaining
-      digital infrastructure supporting 500+ tribal members. Built modern composable architecture
-      leveraging cloud-native services and headless CMS platforms.
-    highlights:
-      - Architected and maintain waccamaw.org using modern service-based composable infrastructure
-      - Implemented headless CMS and API-driven architecture for tribal communications
-      - Built member portal and resource management systems
-      - Manage cloud infrastructure and digital services for tribal operations
-      - Provide technical leadership and strategic technology planning for tribal initiatives
-
 skills:
-  - name: Adobe Commerce & App Builder
-    level: Expert
-    keywords:
-      - Adobe Commerce
-      - App Builder
-      - Adobe I/O Runtime
-      - Commerce Integrations
-      - Magento Cloud
-      - Adobe Commerce Storefront
-      - Adobe Commerce Optimizer
-      - Admin Service
-
-  - name: Adobe Experience Manager
-    level: Expert
-    keywords:
-      - Adobe Experience Manager (AEM)
-      - Edge Delivery Services
-      - Document-based Authoring
-      - da.live
-      - Universal Editor
-      - Commerce Integration Framework (CIF)
-
-  - name: Adobe Experience Platform
-    level: Expert
-    keywords:
-      - Adobe Experience Platform (AEP)
-      - GenStudio
-      - Workfront Fusion
-      - LLM Optimizer
-      - Customer Journey Analytics (CJA)
-      - Customer Journey Orchestration (CJO)
-      - Real-Time Customer Data Platform (RT-CDP)
-
-
-  - name: Cloud & Infrastructure
-    level: Expert
-    keywords:
-      - Kubernetes
-      - Terraform
-      - Docker
-      - AWS
-      - Google Cloud
-      - Azure
-      - Helm
-      - Cloudflare
-      - Oracle Cloud Infrastructure
-      - Infrastructure as Code
-
-
-  - name: Solution Design & Pre-Sales
+  - name: Solution Architecture & Pre-Sales
     level: Expert
     keywords:
       - Enterprise Architecture
@@ -641,46 +618,53 @@ skills:
       - Pre-Sales Engineering
       - RFP Response
       - Technical Discovery
-      
-  - name: e-commerce Platforms
-    level: Expert
-    keywords:
-      - Magento 2
-      - Salesforce Commerce Cloud
-      - Shopify
-      - Oracle Commerce Cloud
-      - Commerce Tools
-      
-  - name: DevOps & CI/CD
-    level: Expert
-    keywords:
-      - GitHub Actions
-      - GitLab CI
-      - Jenkins
-      - Continuous Integration
-      - Continuous Deployment
-      - Automation
-      
-  - name: Architecture & Integration
-    level: Expert
-    keywords:
+      - Executive Presentations
+      - C-Level Engagement
+      - Discovery Workshops
+      - Technical Leadership
       - Microservices
       - GraphQL
       - REST APIs
-      - SAML/SSO
       - System Integration
       - Multi-region Architecture
-      
-  - name: Hosting & Performance
+
+  - name: Adobe Experience Cloud
     level: Expert
     keywords:
+      - Adobe Commerce
+      - Adobe Commerce Storefront
+      - App Builder
+      - Adobe Experience Manager (AEM)
+      - Edge Delivery Services
+      - Universal Editor
+      - Adobe Experience Platform (AEP)
+      - GenStudio
+      - Customer Journey Analytics (CJA)
+      - Real-Time Customer Data Platform (RT-CDP)
+      
+  - name: Cloud Infrastructure & DevOps
+    level: Expert
+    keywords:
+      - Kubernetes
+      - Terraform
+      - Docker
+      - AWS
+      - Azure
+      - Google Cloud
+      - GitHub Actions
+      - CI/CD
+      - Infrastructure as Code
       - Auto-scaling
-      - Load Balancing
-      - CDN
-      - Performance Optimization
-      - High Availability
-      - Rackspace
-      - Webscale
+      
+  - name: Commerce Platforms
+    level: Expert
+    keywords:
+      - Adobe Commerce
+      - Magento 2
+      - Open Mage
+      - Salesforce Commerce Cloud
+      - Shopify
+      - Oracle Commerce Cloud
 
 education: []
   # Add your education here if desired
