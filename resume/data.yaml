@@ -16,12 +16,12 @@ basics:
   url: ""
   picture: "/me.png"
   summary: |
-    Solution consultant and technical architect specializing in Adobe Commerce implementations,
-    cloud infrastructure, and pre-sales technical design. Over a decade of experience delivering
-    enterprise e-commerce solutions for Fortune 500 clients including Apple, Adobe, Walmart, and
-    Microsoft. Expert in Adobe Commerce App Builder, Kubernetes, and multi-region cloud architectures.
-    Currently leading technical design and project oversight for enterprise clients transitioning to
-    modern commerce platforms.
+    Enterprise architect and solution consultant engaging C-suite and VP stakeholders at Fortune 500 organizations
+    with 15+ years delivering commerce platforms. Expert in Adobe Experience Cloud (Commerce, AEM Edge Delivery
+    Services, App Builder, GenStudio, Workfront, LLM Optimizer), Oracle Commerce, and Shopify. Technical leadership
+    across composable commerce, React, cloud infrastructure (Kubernetes, Terraform, multi-cloud), and DevOps
+    automation. Specializes in pre-sales technical design and RFP responses with proven track record delivering
+    highly scalable, robust production solutions.
   location:
     city: "Charleston"
     countryCode: US
@@ -44,13 +44,10 @@ work:
       for Fortune 500 clients and high-growth digital brands across retail, B2B, marketplace,
       and omnichannel commerce sectors.
     highlights:
-      - Led Adobe Commerce App Builder integration rollout for Adobe's key ISV partners (Stripe, Yotpo, Bazaarvoice, Adyen)
-      - Architected solutions for 40+ enterprise clients including Microsoft, Adobe, Meta, and Subaru of America
-      - Pre-sales technical consultant for Verisk Analytics, Lovesac, American Eagle Outfitters, and Starbucks at Home
-      - Solution design for luxury and premium brands including Cartier, Warby Parker, and Moda Operandi
-      - Enterprise architecture consultation for DISH Network, Digital River, AT&T, and Rite Aid
-      - Led technical discovery and RFP responses for NBC Universal, OneTrust, PayPal/Braintree, and Turner Broadcasting
-      - Open-source contributor to Adobe Commerce App Builder ecosystem with public GitHub repositories
+      - Led Adobe Commerce App Builder integration rollout for Adobe's ISV partners (Stripe, Yotpo, Bazaarvoice, Adyen)
+      - Architected solutions for 40+ enterprise clients including Microsoft, Adobe, Meta, Subaru, American Eagle, Starbucks
+      - Led technical discovery and RFP responses for NBC Universal, OneTrust, PayPal, Turner Broadcasting, DISH, AT&T
+      - Open-source contributor to Adobe Commerce App Builder ecosystem
     keywords:
       - Adobe Commerce
       - App Builder
@@ -70,13 +67,10 @@ work:
       across Fortune 500 clients and global brands. Designed and delivered cloud infrastructure,
       CI/CD automation, and scalable commerce platforms.
     highlights:
-      - Architected and delivered solutions for 25+ enterprise clients
-      - Built auto-scaling Kubernetes infrastructure serving global markets across 4 data centers with 150+ locales
-      - Created CI/CD tooling and deployment automation used across organization
+      - Architected solutions for 25+ enterprise clients across Fortune 500 and global brands
+      - Built auto-scaling Kubernetes infrastructure serving 150+ locales across 4 global data centers
+      - Created organization-wide CI/CD tooling and deployment automation
       - Led hybrid cloud implementations integrating Adobe Experience Manager with Commerce platforms
-      - Infrastructure architect for Books-a-Million with Terraform Cloud managed Kubernetes and Helm charts
-      - Technical lead for Walmart Magento Services mono-repo with automated MFTF testing
-      - Architected SAML-based SSO for Demme Learning integrating multiple courseware platforms
     keywords:
       - Adobe Commerce
       - Kubernetes
@@ -107,10 +101,8 @@ work:
       Provide fractional CTO services delivering strategic technology leadership. Led platform stabilization
       and migration from Adobe Commerce to Shopify, enabling focus on customer experience innovation.
     highlights:
-      - Strategic technology leadership and platform architecture as fractional CTO
-      - Led platform migration from Adobe Commerce to Shopify
-      - Eliminated technical debt blocking customer experience improvements
-      - Partner directly with CEO on technology strategy
+      - Strategic technology leadership partnering directly with CEO
+      - Led platform migration from Adobe Commerce to Shopify, eliminating technical debt
     keywords:
       - Fractional CTO
       - Adobe Commerce
@@ -126,9 +118,8 @@ work:
       Built custom MVC framework (Fusion) powering multiple local business websites. Specialized in
       Drupal and WordPress development for small to medium-sized businesses.
     highlights:
-      - Architected and developed Fusion MVC framework used across multiple client sites
-      - Technical lead for Lowcountry Jewelers and Surf The Earth implementations
-      - Drupal and WordPress development and custom theming
+      - Architected custom MVC framework (Fusion) powering multiple client sites
+      - Drupal and WordPress development for SMB clients
     keywords:
       - PHP
       - MVC Framework
@@ -148,12 +139,8 @@ volunteer:
       digital infrastructure supporting 500+ tribal members. Built modern composable architecture
       leveraging cloud-native services and headless CMS platforms.
     highlights:
-      - Architected and maintain waccamaw.org using modern service-based composable infrastructure
-      - Implemented headless CMS and API-driven architecture for tribal communications
-      - Built member portal and resource management systems
-      - Manage cloud infrastructure and digital services for tribal operations
-      - Provide technical leadership and strategic technology planning for tribal initiatives
-      - Open-source code and infrastructure documentation available on GitHub
+      - Architected composable headless CMS infrastructure serving 500+ tribal members
+      - Built member portal and resource management systems with modern cloud-native services
 
 # Projects showcase
 projects:
@@ -163,10 +150,7 @@ projects:
       Led Adobe's rollout of Commerce App Builder integrations for key ISV partners.
       Open-source implementations enabling out-of-app Adobe Commerce integrations.
     highlights:
-      - Stripe Payments
-      - Yotpo Reviews
-      - Bazaarvoice Reviews
-      - Adyen Payments
+      - Open-source implementations for Stripe, Yotpo, Bazaarvoice, and Adyen integrations
     keywords:
       - Adobe Commerce
       - App Builder
@@ -184,9 +168,7 @@ projects:
       Platform modernization to Adobe Commerce as a Cloud Service as one of the first customers
       using this new exciting platform. Leading technical architecture and implementation.
     highlights:
-      - Early adopter of Adobe Commerce as a Cloud Service
-      - Platform modernization and migration strategy
-      - Cloud-native architecture implementation
+      - Early pilot customer for Adobe Commerce as a Cloud Service platform modernization
     keywords:
       - Adobe Commerce as a Cloud Service
       - Platform Migration
@@ -240,10 +222,7 @@ projects:
       marquee customer for Adobe's innovative in-context editing platform.
     highlights:
       - First customer to pilot and deploy Project Crosswalk (Universal Editor)
-      - Introduced and championed AEM Edge Delivery Services adoption
-      - Collaborated with Adobe architecture team on red carpet pilot initiative
-      - Established Lovesac as marquee Adobe customer for Universal Editor
-      - Drove adoption of innovative in-context editing technology
+      - Introduced AEM Edge Delivery Services; collaborated directly with Adobe architecture team
     keywords:
       - Adobe Experience Manager
       - Edge Delivery Services
@@ -263,11 +242,8 @@ projects:
       Architected and delivered innovative React-based headless commerce solution leveraging Adobe Commerce
       as a composable backend, enabling Aramark to revolutionize their B2B breakroom ordering platform.
     highlights:
-      - Visioned and architected the "Breakroom of the Future" digital transformation initiative
-      - Implemented headless React frontend with Adobe Commerce composable backend
-      - Delivered modern B2B commerce experience for workplace refreshment services
-      - Led technical team through complete platform modernization
-      - Created scalable composable architecture supporting future innovation
+      - Architected headless React frontend with Adobe Commerce composable backend
+      - Delivered modern B2B commerce platform for workplace refreshment services
     keywords:
       - Adobe Commerce
       - Headless Commerce
@@ -284,8 +260,7 @@ projects:
   - name: Xbox Design Labs
     description: Pre-sales technical design for Microsoft's enterprise commerce initiative
     highlights:
-      - Multi-tenant architecture design
-      - Adobe Commerce Cloud platform evaluation
+      - Pre-sales technical design for multi-tenant enterprise commerce platform
     keywords:
       - Enterprise Architecture
       - Adobe Commerce
@@ -299,9 +274,7 @@ projects:
     description: |
       Implementation and maintenance of automated test environments for Nintendo's online eShop.
     highlights:
-      - Test environment implementation and maintenance
-      - High-security requirements
-      - Prestigious client work
+      - Automated test environment implementation for high-security eShop platform
     keywords:
       - e-commerce
       - Test Environments
@@ -316,9 +289,7 @@ projects:
       Large-scale global project using a mix of commerce platforms for Apple's worldwide digital channel.
       Multi-platform integration serving global markets.
     highlights:
-      - Global-scale commerce platform integration
-      - Cross-functional coordination with Apple teams
-      - High-performance requirements and strict quality standards
+      - Global-scale multi-platform commerce integration serving worldwide markets
     keywords:
       - e-commerce
       - Global Scale
@@ -443,9 +414,7 @@ projects:
       Global brand serving 150+ locales across four worldwide data centers with unified codebase.
       Multi-region deployment supporting worldwide markets.
     highlights:
-      - Implemented four-datacenter global architecture
-      - Unified codebase serving 150+ locales
-      - Supported transition to Salesforce Commerce Cloud
+      - Unified codebase serving 150+ locales across 4 worldwide data centers
     keywords:
       - Global Deployment
       - Multi-region
@@ -489,8 +458,7 @@ projects:
     description: |
       Initial implementation with product customizer and integrated social media services. Also built a Digital River payment module to allow them to migrate away from a sunsetted payment provider. 
     highlights:
-      - Product customization platform
-      - Social media integration
+      - Product customizer with social media integration and custom Digital River payment module
     keywords:
       - Product Customization
       - Social Integration
