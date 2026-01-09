@@ -39,15 +39,18 @@ work:
     position: Solution Consultant & Enterprise Architect
     startDate: "2022"
     summary: |
-      Lead pre-sales technical design and solution architecture for enterprise Adobe Commerce
-      implementations. Conduct technical discovery, solution design, and architecture workshops
-      for Fortune 500 clients and high-growth digital brands across retail, B2B, marketplace,
-      and omnichannel commerce sectors.
+      Lead enterprise architecture, commerce strategy alignment, and executive stakeholder engagement across
+      the full solution lifecycle—from pre-sales through implementation oversight and post-delivery governance.
+      Facilitate cross-organizational collaboration between clients, Adobe, ISV partners, and internal teams.
+      Provide platform stewardship and architectural standardization for Fortune 500 clients across retail,
+      B2B, marketplace, and omnichannel commerce sectors.
     highlights:
-      - Led Adobe Commerce App Builder integration rollout for Adobe's ISV partners (Stripe, Yotpo, Bazaarvoice, Adyen)
-      - Architected solutions for 40+ enterprise clients including Microsoft, Adobe, Meta, Subaru, American Eagle, Starbucks
-      - Led technical discovery and RFP responses for NBC Universal, OneTrust, PayPal, Turner Broadcasting, DISH, AT&T
-      - Open-source contributor to Adobe Commerce App Builder ecosystem
+      - Established governance framework for Adobe Commerce App Builder ISV partner integrations (Stripe, Yotpo, Bazaarvoice, Adyen)
+      - Led commerce strategy and technical architecture for 40+ enterprise clients including Microsoft, Adobe, Meta, Subaru, American Eagle, Starbucks
+      - Facilitated executive alignment and technical discovery for NBC Universal, OneTrust, PayPal, Turner Broadcasting, DISH, AT&T
+      - Post-sales architectural oversight ensuring platform consistency and long-term scalability
+      - Cross-department enablement and organizational governance across client and partner ecosystems
+      - Open-source ecosystem leadership driving Adobe Commerce App Builder community adoption
     keywords:
       - Adobe Commerce
       - App Builder
@@ -63,14 +66,16 @@ work:
     startDate: "2011"
     endDate: "2021"
     summary: |
-      Led technical architecture and infrastructure for high-profile e-commerce implementations
-      across Fortune 500 clients and global brands. Designed and delivered cloud infrastructure,
-      CI/CD automation, and scalable commerce platforms.
+      Established architectural governance and technical standards across Fortune 500 commerce implementations.
+      Led multi-team and multi-vendor coordination to ensure platform consistency and organizational alignment.
+      Defined long-term platform strategy, infrastructure patterns, and automation frameworks adopted across
+      the organization.
     highlights:
-      - Architected solutions for 25+ enterprise clients across Fortune 500 and global brands
-      - Built auto-scaling Kubernetes infrastructure serving 150+ locales across 4 global data centers
-      - Created organization-wide CI/CD tooling and deployment automation
-      - Led hybrid cloud implementations integrating Adobe Experience Manager with Commerce platforms
+      - Established architectural standards and governance practices for 25+ enterprise clients
+      - Defined multi-region infrastructure patterns serving 150+ locales across 4 global data centers
+      - Created organization-wide CI/CD automation and deployment standards adopted across all teams
+      - Led platform strategy for hybrid cloud architectures integrating Adobe Experience Manager with Commerce
+      - Coordinated cross-functional teams and third-party vendors to ensure technical alignment and delivery consistency
     keywords:
       - Adobe Commerce
       - Kubernetes
@@ -98,11 +103,16 @@ work:
     position: Fractional CTO
     startDate: "2023"
     summary: |
-      Provide fractional CTO services delivering strategic technology leadership. Led platform stabilization
-      and migration from Adobe Commerce to Shopify, enabling focus on customer experience innovation.
+      Deliver strategic technology leadership and platform rationalization. Reduced high Adobe licensing costs
+      year-over-year through strategic platform assessment and optimization. Guided de-platforming from Adobe
+      Commerce to Shopify, eliminating unsustainable technical debt and restoring competitive parity with peer
+      retailers while optimizing content delivery using Fastly.
     highlights:
-      - Strategic technology leadership partnering directly with CEO
-      - Led platform migration from Adobe Commerce to Shopify, eliminating technical debt
+      - Strategic technology leadership partnering directly with CEO on platform and cost strategy
+      - Reduced Adobe licensing costs through strategic platform rationalization and vendor negotiation
+      - Optimized content delivery infrastructure using Fastly to improve performance and reduce costs
+      - Guided migration from Adobe Commerce to Shopify, eliminating technical debt blocking customer experience innovation
+      - Restored platform parity with competitive retailers through strategic technology modernization
     keywords:
       - Fractional CTO
       - Adobe Commerce
@@ -135,22 +145,50 @@ volunteer:
     url: "https://waccamaw.org"
     startDate: "2001"
     summary: |
-      Serve as technology officer for federally recognized tribe, architecting and maintaining
-      digital infrastructure supporting 500+ tribal members. Built modern composable architecture
-      leveraging cloud-native services and headless CMS platforms.
+      Provide long-term digital stewardship and technology governance for federally recognized tribe.
+      Ensure platform sustainability and organizational continuity through strategic technology planning,
+      member enablement, and modern composable architecture supporting 500+ tribal members.
     highlights:
-      - Architected composable headless CMS infrastructure serving 500+ tribal members
-      - Built member portal and resource management systems with modern cloud-native services
+      - Established governance framework ensuring platform sustainability and organizational continuity
+      - Long-term stewardship of digital infrastructure and member-facing services across two decades
+      - Architected composable headless CMS infrastructure enabling member self-service and community engagement
+      - Strategic technology planning aligning digital capabilities with tribal operations and cultural preservation
 
 # Projects showcase
 projects:
+
+  - name: Adyen - Adobe Commerce App Builder Payment Integration
+    description: |
+      Led pre-sales solution framing and ecosystem alignment for community-driven, open-source Adobe Commerce
+      App Builder payment integration. Facilitated go-to-market strategy between Blue Acorn iCi, Adobe, and Adyen
+      through in-person executive alignment sessions in New York and Adobe Summit Las Vegas. Positioned as
+      best-in-class payment integration enabling enterprise clients and the broader commerce community.
+    highlights:
+      - Led pre-sales strategy and solution framing for enterprise payment platform enablement
+      - Facilitated in-person executive alignment with Adyen leadership in New York and Adobe Summit Las Vegas
+      - Drove go-to-market collaboration across Blue Acorn iCi, Adobe, and Adyen partner ecosystems
+      - Established open-source community governance model for App Builder payment integration
+      - Positioned integration as ecosystem standard for enterprise Adobe Commerce payment processing
+    keywords:
+      - Adobe Commerce
+      - App Builder
+      - Payment Integration
+      - Ecosystem Leadership
+      - Partner Strategy
+      - Open Source Governance
+    startDate: "2025"
+    endDate: "2026"
+    roles:
+      - Solution Consultant
+      - Ecosystem Lead
+    type: open-source
 
   - name: Adobe Commerce App Builder - ISV Partner Integrations
     description: |
       Led Adobe's rollout of Commerce App Builder integrations for key ISV partners.
       Open-source implementations enabling out-of-app Adobe Commerce integrations.
     highlights:
-      - Open-source implementations for Stripe, Yotpo, Bazaarvoice, and Adyen integrations
+      - Established ecosystem governance for open-source Stripe, Yotpo, and Bazaarvoice integrations
     keywords:
       - Adobe Commerce
       - App Builder
