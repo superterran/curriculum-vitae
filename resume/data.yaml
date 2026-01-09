@@ -46,8 +46,8 @@ work:
       B2B, marketplace, and omnichannel commerce sectors.
     highlights:
       - Established governance framework for Adobe Commerce App Builder ISV partner integrations (Stripe, Yotpo, Bazaarvoice, Adyen)
-      - Led commerce strategy and technical architecture for 40+ enterprise clients including Microsoft, Adobe, Meta, Subaru, American Eagle, Starbucks
-      - Facilitated executive alignment and technical discovery for NBC Universal, OneTrust, PayPal, Turner Broadcasting, DISH, AT&T
+      - Led commerce strategy and technical architecture for 40+ enterprise clients including Microsoft, Adobe, Subaru, American Eagle, Starbucks
+      - Delivered executive oral presentations and technical discovery workshops for NBC Universal, OneTrust, PayPal, Turner Broadcasting, DISH, AT&T
       - Post-sales architectural oversight ensuring platform consistency and long-term scalability
       - Cross-department enablement and organizational governance across client and partner ecosystems
       - Open-source ecosystem leadership driving Adobe Commerce App Builder community adoption
@@ -207,6 +207,8 @@ projects:
       using this new exciting platform. Leading technical architecture and implementation.
     highlights:
       - Early pilot customer for Adobe Commerce as a Cloud Service platform modernization
+      - Led solution architecture and cloud-native infrastructure design for next-generation commerce platform
+      - Established technical governance and deployment standards for cloud service adoption
     keywords:
       - Adobe Commerce as a Cloud Service
       - Platform Migration
@@ -259,8 +261,9 @@ projects:
       as first customer to market with Project Crosswalk (later Universal Editor), making them a
       marquee customer for Adobe's innovative in-context editing platform.
     highlights:
-      - First customer to pilot and deploy Project Crosswalk (Universal Editor)
-      - Introduced AEM Edge Delivery Services; collaborated directly with Adobe architecture team
+      - First customer to pilot and deploy Project Crosswalk (Universal Editor) in production
+      - Introduced AEM Edge Delivery Services adoption strategy and collaborated directly with Adobe architecture team
+      - Established Lovesac as marquee Adobe customer demonstrating innovative in-context editing technology
     keywords:
       - Adobe Experience Manager
       - Edge Delivery Services
@@ -280,8 +283,9 @@ projects:
       Architected and delivered innovative React-based headless commerce solution leveraging Adobe Commerce
       as a composable backend, enabling Aramark to revolutionize their B2B breakroom ordering platform.
     highlights:
-      - Architected headless React frontend with Adobe Commerce composable backend
-      - Delivered modern B2B commerce platform for workplace refreshment services
+      - Architected headless React frontend with Adobe Commerce composable backend for B2B ordering platform
+      - Delivered modern workplace refreshment digital commerce experience enabling self-service ordering
+      - Led technical team through complete platform modernization and composable architecture transformation
     keywords:
       - Adobe Commerce
       - Headless Commerce
@@ -298,7 +302,8 @@ projects:
   - name: Xbox Design Labs
     description: Pre-sales technical design for Microsoft's enterprise commerce initiative
     highlights:
-      - Pre-sales technical design for multi-tenant enterprise commerce platform
+      - Pre-sales technical design for multi-tenant enterprise commerce platform supporting global markets
+      - Adobe Commerce Cloud platform evaluation and architecture recommendations for Microsoft's D2C initiative
     keywords:
       - Enterprise Architecture
       - Adobe Commerce
@@ -313,6 +318,7 @@ projects:
       Implementation and maintenance of automated test environments for Nintendo's online eShop.
     highlights:
       - Automated test environment implementation for high-security eShop platform
+      - Established deployment automation and governance for controlled testing infrastructure
     keywords:
       - e-commerce
       - Test Environments
@@ -328,6 +334,7 @@ projects:
       Multi-platform integration serving global markets.
     highlights:
       - Global-scale multi-platform commerce integration serving worldwide markets
+      - Cross-functional coordination with Apple engineering teams on high-performance commerce infrastructure
     keywords:
       - e-commerce
       - Global Scale
@@ -452,7 +459,8 @@ projects:
       Global brand serving 150+ locales across four worldwide data centers with unified codebase.
       Multi-region deployment supporting worldwide markets.
     highlights:
-      - Unified codebase serving 150+ locales across 4 worldwide data centers
+      - Unified codebase serving 150+ locales across 4 worldwide data centers with multi-region infrastructure
+      - Established global deployment patterns and supported transition to Salesforce Commerce Cloud
     keywords:
       - Global Deployment
       - Multi-region
@@ -496,7 +504,8 @@ projects:
     description: |
       Initial implementation with product customizer and integrated social media services. Also built a Digital River payment module to allow them to migrate away from a sunsetted payment provider. 
     highlights:
-      - Product customizer with social media integration and custom Digital River payment module
+      - Product customizer with social media integration enabling user-generated content
+      - Custom Digital River payment module enabling migration from sunsetted payment provider
     keywords:
       - Product Customization
       - Social Integration
